@@ -16,7 +16,7 @@ int main(int argc, char **argv) {
 
 		ros_custom_msg::demo msg;
     cout << "Scrivi: ";
-		cin>> msg.testo;
+		cin >> msg.testo;
     cout<< "Inviato."<<endl;
 
 		ROS_INFO("%s\n", msg.testo.c_str());
